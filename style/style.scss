@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #191C1B;
+    color: #C4C7C4;
+    font-family: "IBM Plex Sans", sans-serif;
+    position: relative;
+    width: 1000px;
+}
+
+.container {
+    margin-left: 112px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+}
+
+.swiper-pagination {
+    display: none;
+}
+
+@import "home.scss";
+@import "training.scss";
